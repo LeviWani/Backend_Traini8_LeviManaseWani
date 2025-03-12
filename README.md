@@ -22,7 +22,7 @@ springdoc.swagger-ui.enabled=true
 
 
 ////
-this is done as the current application.properties is configured for live deployment in an attempt to make running it easier 
+this is done as the current application.properties is configured for live deployment in an attempt to make running it easier LINK : https://leviwani.onrender.com/swagger-ui/index.html
 
 locally, use postman or swagger(http://localhost:8081/swagger-ui/index.html) to view and run the project.
 The list of apis created can be seen in the APiConstants file 
