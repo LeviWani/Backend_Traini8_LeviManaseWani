@@ -41,7 +41,7 @@ public class GlobalExceptionHandler {
 
 
 
-    //normal exceptions
+    //other exceptions
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGlobalException(Exception ex) {
         Map<String, Object> errorDetails = new HashMap<>();

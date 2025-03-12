@@ -22,7 +22,7 @@ public interface TrainingCenterRepo extends JpaRepository<TrainingCenter, Long> 
             "OR LOWER(t.centerCode) LIKE LOWER(CONCAT('%', :keyword, '%')) " +
             "OR LOWER(t.contactEmail) LIKE LOWER(CONCAT('%', :keyword, '%')) " +
             "OR LOWER(t.contactPhone) LIKE LOWER(CONCAT('%', :keyword, '%'))")
-    List<SearchDto> filter(String keyword);
+    List<SearchDto> filter(@Param( "keyword") String keyword);
 
 
 
