@@ -35,7 +35,7 @@ public class TrainingCenterServiceImplementation implements TrainingCenterInterf
         return expenses.stream().map((temp)->trainingCenterMapper.toDto(temp)).toList();
 
     }
-
+//search or filter
     @Override
     public List<SearchDto> search(String keyword){
         List<SearchDto> list = repo.filter(keyword);

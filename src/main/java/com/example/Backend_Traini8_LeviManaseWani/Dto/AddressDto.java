@@ -10,11 +10,7 @@ import lombok.Data;
 @Data
 public class AddressDto {
 
-
-
-
     @NotBlank(message = "entgr valid address")
-
     private String fullAddress;
 
     @NotBlank(message = "enter valid city")

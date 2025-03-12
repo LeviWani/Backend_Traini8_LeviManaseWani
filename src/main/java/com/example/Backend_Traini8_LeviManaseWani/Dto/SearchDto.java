@@ -19,7 +19,7 @@ public class SearchDto {
             this.contactPhone = contactPhone;
         }
 
-        // Getters and Setters
+        // Getters and Setters as lombok wasnt working for this file
 
 
 

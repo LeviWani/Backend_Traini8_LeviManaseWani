@@ -13,6 +13,8 @@ import java.util.List;
 @Repository
 public interface TrainingCenterRepo extends JpaRepository<TrainingCenter, Long> {
 
+
+    ///checks colums of trainingcenter entity for keyword. trying to get address broke eveything
     @Query("SELECT new com.example.Backend_Traini8_LeviManaseWani.Dto.SearchDto(" +
             "t.id, t.centerName, t.centerCode, t.contactEmail, t.contactPhone) " +
             "FROM TrainingCenter t " +

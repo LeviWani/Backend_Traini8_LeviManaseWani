@@ -36,7 +36,7 @@ public class TrainingCenterDto {
     private String contactPhone;
 
 
-    ////----this can be solved with lombok but my system has a lombok problem hence the getters and sertters----//
+
 
 
 }
