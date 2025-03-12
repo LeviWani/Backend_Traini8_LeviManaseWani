@@ -13,7 +13,7 @@ public class TrainingCenterMapper {
     private ModelMapper modelMapper;
 
     public TrainingCenter toEntity(TrainingCenterDto trainingCenterDto){
-        trainingCenterDto.setCreatedOn(Instant.now().toEpochMilli());  //for epoch time
+        trainingCenterDto.setCreatedOn(Instant.now().toEpochMilli());
         return modelMapper.map(trainingCenterDto, TrainingCenter.class);
 
     }

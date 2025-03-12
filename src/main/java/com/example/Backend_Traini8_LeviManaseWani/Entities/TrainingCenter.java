@@ -31,7 +31,7 @@ public class TrainingCenter {
     private int studentCapacity;
 
     private List<String> coursesOffered;
-    @CreatedDate
+
     private Long createdOn;
     @Email(message = "enter vaalid email")
     private String contactEmail;

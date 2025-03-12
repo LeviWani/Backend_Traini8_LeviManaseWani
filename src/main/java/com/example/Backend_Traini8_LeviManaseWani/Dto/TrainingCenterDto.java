@@ -21,13 +21,13 @@ public class TrainingCenterDto {
     private String centerName;
     @Size(min = 12, max = 12, message = "length of centercode should be 12")
     private String centerCode;
-    @OneToOne(cascade = CascadeType.ALL)
+   // @OneToOne(cascade = CascadeType.ALL)
     private AddressDto address;
     @NotNull(message = "student capacity cant be blank")
     private int studentCapacity;
 
     private List<String> coursesOffered;
-    @CreatedDate
+
     private Long createdOn;
     @Email(message = "enter vaalid email")
     private String contactEmail;
